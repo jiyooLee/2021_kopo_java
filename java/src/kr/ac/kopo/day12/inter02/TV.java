@@ -12,4 +12,17 @@ public interface TV {
 	void soundUp();
 	void soundDown();
 	void mute();
+	
+	default void copyright() {
+		System.out.println("모든 기술은 TV협회에 귀속됩니다");
+	}
 }
+
+
+
+
+
+
+
+
+

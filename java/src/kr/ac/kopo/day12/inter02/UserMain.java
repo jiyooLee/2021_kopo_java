@@ -23,5 +23,6 @@ public class UserMain {
 		tv.soundUp();
 		tv.mute();
 		tv.powerOff();
+		tv.copyright();
 	}
 }
