@@ -62,9 +62,18 @@ public class MapMain01 {
 	}
 }
 
+/*
+class Member {
+	String id;
+	String password;
+}
 
-
-
+List<Member> memberList = new ArrayList<>();
+memberList.add(new Member("aaa", "1111"));
+memberList.add(new Member("bbb", "2222"));
+memberList.add(new Member("ccc", "3333"));
+memberList.add(new Member("ddd", "4444"));
+*/
 
 
 

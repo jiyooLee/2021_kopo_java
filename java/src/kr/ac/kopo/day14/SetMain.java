@@ -1,9 +1,9 @@
 package kr.ac.kopo.day14;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
-import java.util.TreeSet;
 
 /*
  * Set : 순서(X), 중복(X)
@@ -14,8 +14,8 @@ public class SetMain {
 
 	public static void main(String[] args) {
 
-//		Set<String> set = new HashSet<>();
-		Set<String> set = new TreeSet<>();
+		Set<String> set = new HashSet<>();
+//		Set<String> set = new TreeSet<>();
 		
 		boolean bool = set.add("one");
 		System.out.println("\"one\" 데이터 삽입여부 : " + (bool ? "성공" : "실패"));
