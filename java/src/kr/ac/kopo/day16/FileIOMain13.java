@@ -1,6 +1,5 @@
 package kr.ac.kopo.day16;
 
-import java.io.EOFException;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
