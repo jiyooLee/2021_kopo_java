@@ -15,6 +15,7 @@ public class BoardDAO {
 	
 	public List<BoardVO> 전체게시글조회() throws Exception {
 
+		System.out.println("dao 전체게시글조회...");
 		return list;
 	}
 	
@@ -29,6 +30,7 @@ public class BoardDAO {
 	
 	public void 새글등록(BoardVO newBoard) throws Exception  {
 		list.add(newBoard);
+		System.out.println("dao : " + newBoard + "  size : " + list.size() );
 	}
 	
 	public void 게시글수정(BoardVO board) throws Exception  {
